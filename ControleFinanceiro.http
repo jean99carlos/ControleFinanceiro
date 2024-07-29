@@ -1,0 +1,10 @@
+@ControleFinanceiro_HostAddress = http://localhost:5261/api/v1
+### Authentication Login Request
+POST http://localhost:5261/api/v1/Authentication/Login
+Accept: application/json
+Content-Type: application/json
+
+{
+  "Login": "jean99carlos",
+  "Senha": "jean1234"
+}
